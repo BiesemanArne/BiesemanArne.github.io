@@ -792,11 +792,26 @@ fieldset {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 455px) {
+    nav ul {
+        padding: 5px;
+    }
     nav li {
-        margin: 6px;
+        margin: 5px;
     }
     nav li a {
-        font-size: 10px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 330px) {
+    nav ul {
+        padding: 5px;
+    }
+    nav ul li {
+        margin: 3px;
+    }
+    nav li a {
+        font-size: 8px;
     }
 }
